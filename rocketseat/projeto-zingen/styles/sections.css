@@ -6,7 +6,6 @@
 
 section {
     & header {
-
         & strong {
             display: block;
             font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
@@ -19,13 +18,14 @@ section {
         & h2 {
             margin-top: .5rem;
         }
+    }
 
         & p {
             margin-top: .5rem;
             color: var(--text-color-secondary);
         }
     }
-}
+
 
 @media (width >=80em) {
     #smartphones-img {
